@@ -1,2 +1,2 @@
 # Plant-Disease-Detection
-Remote Plant Disease Detection for Drones using VGG16. [For AngelHacks Mumbai 2017]
+Remote Plant Disease Detection for Drones by finetuning VGG16(pre-trained on Imagenet). [For AngelHacks Mumbai 2017]
