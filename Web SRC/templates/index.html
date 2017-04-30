@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FarmEasy</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto:300,400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+	<meta http-equiv="cache-control" content="no-cache" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="well">
+    <div class="row">
+      <div class="col-md-12">
+          <h1 class="head text-center">FarmEasy</h1>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well"  id="img-well">
+            <img class="img-rounded test-image center-block" src="static/img.jpg" width="500px"></img>
+        <p class="text-center" id="image-description">{{ plant_name }}</p>
+          </div>       
+        </div>
+        <div class="col-md-6">
+          <h3 id="content-header">Diseases:</h3>
+          <ul>
+			{% for key,value in dictionary.items() %}
+            	<li><strong>{{ value }}</strong> - {{ key }}</li>
+            {% endfor %}
+          </ul>
+          <h3 id="content-header">Treatment:</h3>
+          <p id="quote">{{ treatment_technique }}</p>
+          <!-- <p class="text-muted"><em>- Warren Edward Buffett</em></p> -->
+<!--           <p id="wikipedia">For more information, click <a href="{{ cure_url }}">here</a>.</p>
+ -->        </div>
+      </div>
+    </div>
+  </div>
+
+</body>  
+</html>

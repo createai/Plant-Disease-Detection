@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 1em;
+}
+
+div img.test-image {
+	max-height: 500px;
+  max-width: 500px;
+}
+.row div h1.head {
+	margin-top: 0px;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+#img-well {
+  background-color: white;
+  padding: 5px;
+}
+
+.img-rounded {
+  width: 100%;
+}
+
+#subheading {
+  margin-bottom:20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: 'Patua One', cursive;
+}
+
+#image-description {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+#content-header {
+  font-weight: 700;
+}
+
+#quote {
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+#wikipedia {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
