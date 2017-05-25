@@ -12,10 +12,10 @@ An Android application acts as a camera for capturing the image and sends it to 
 
 ![](http://hackathon.io.s3.amazonaws.com/screenshots/images/000/004/452/original/WhatsApp_Image_2017-04-30_at_12.52.55_PM.jpeg)
 ## Team
-**Sarthak Munshi** &lt;sarthakm.com&gt;
+**Sarthak Munshi** &lt;saru.ml&gt;
 * [saru95](https://github.com/saru95) 
 
-**Yash Katariya** &lt;yashk.pythonanywhere.com&gt;
+**Yash Katariya** &lt;yashk2810.github.io&gt;
 * [yashk2810](https://github.com/yashk2810) 
 
 **Sushant Mathur** &lt;sushantmathur.me&gt;
