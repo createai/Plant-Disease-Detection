@@ -18,5 +18,5 @@ An Android application acts as a camera for capturing the image and sends it to 
 **Yash Katariya** &lt;<a href="https://yashk2810.github.io">yashk2810.github.io</a>&gt;
 * [yashk2810](https://github.com/yashk2810) 
 
-**Sushant Mathur** &lt;<a href="http://sushantmathur.me">sushantmathur.me</a>&gt;
+**Sushant Mathur** &lt;<a href="http://sushantmathur.me">sushant.wiki</a>&gt;
 * [Sushant-M](https://github.com/Sushant-M) 
